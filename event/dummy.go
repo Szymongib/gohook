@@ -1,5 +1,3 @@
-// +build dummy
-
 // This file is part of a workaround for `go mod vendor` which won't
 // vendor C files if there are no Go files in the same directory.
 // This prevents the C header files in event/ from being vendored.
